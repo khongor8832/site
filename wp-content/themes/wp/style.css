@@ -1,0 +1,100 @@
+/*
+Template name: Site
+Author: Khongor
+version: 1.2
+description: Site template
+*/
+
+body {
+  color: #333;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.main-menu-more {
+  display: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  padding: 10px 0px;
+}
+.header .logo {
+  background-color: #fff;
+}
+.header .logo img {
+  width: 350px;
+}
+.header .menu {
+  margin-top: 25px;
+}
+.header .menu li {
+  display: inline-block;
+}
+.header .menu li a {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  padding: 2px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.slider {
+}
+.slider img {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+// ----------------
+.news {
+  padding: 50px 0;
+}
+.title {
+  color: #000;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0px 15px;
+  font-family: "Roboto condensed", sans-serif;
+}
+.divider {
+  width: 100px;
+  height: 2px;
+  background-color: #000;
+  margin: 0 auto 50px;
+}
+
+.n1 {
+}
+.n1 .n1-image {
+}
+.n1 .n1-image img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+.n1 h3 {
+  font-size: 18px;
+  font-family: "Roboto condensed";
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 10px 0;
+  height: 42px;
+  overflow: hidden;
+}
+.n1 h3 a {
+}
+.n1 .date {
+}
+.n1 p {
+}
